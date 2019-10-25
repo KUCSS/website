@@ -1,0 +1,7 @@
+1. Figure out whats going on with the calendar - Hristo (or another developer) will need access to:
+    ->Notion calendar
+    ->Google calendar 
+Basically what I am thinking is that the Google calendar has to be brough back and integrated with the Notion one - there is no Notion Calendar iframe for embedding so that seems like the way to go.
+I am open for discussion, if you figure out a better solution, feel free to message me. I am going to go ahead with the changes when the above prerequisites have been met :)
+
+2. Find someone to help me maintain the website. I don't really think this is a high priority item, but I just want to leave it here so that I don't forget about it.
