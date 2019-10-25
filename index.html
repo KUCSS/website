@@ -182,13 +182,20 @@
 
         <header class="section-header wow fadeInUp">
           <h3>Events</h3>
-            <p id = "]calendar-disclaimer">The Cyber Security Society Calendar available bellow has all planned events. Subscribe to it <a href="https://calendar.google.com/calendar?cid=a3VjeWJlcnNlY0BnbWFpbC5jb20">here</a> to be up to date with new events!</p>
+            <p id = "calendar-disclaimer">The Cyber Security Society Calendar available bellow has all planned events. Subscribe to it <a href="https://calendar.google.com/calendar/embed?src=kucybersec%40gmail.com&ctz=Europe%2FLondon">here</a> to be up to date with new events!</p>
         </header>
         
         <div class="row">
-          <div id = "google-calendar-iframe" align="center" class="col-lg-12 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
+          <!-- I don't know what happened there, but I'm replacing it with the old google calendar iframe -->
+          <!-- <div id = "google-calendar-iframe" align="center" class="col-lg-12 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
             <h4 class="title"><a href="https://www.notion.so/5ea673b76d0241a8afee2bd7c7117e50?v=1f7aff2762ad4e319052d4e55362792b"">Calendar [notion.so]</a></h4>
             <br><small align = "left">Note, that to access the calendar on a mobile device, you have to subscribe to it and use your calendar app.</small>
+          </div> -->
+
+          <div id = "google-calendar-iframe" align="center" class="col-lg-12 col-md-6 box wow bounceInUp" data-wow-duration="1.4s">
+              <h4 class="title"><a href="https://calendar.google.com/calendar/embed?src=kucybersec%40gmail.com&ctz=Europe%2FLondon">Google Calendar</a></h4>
+              <iframe src="https://calendar.google.com/calendar/embed?src=kucybersec%40gmail.com&ctz=Europe%2FLondon" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
           </div>
         
         </div>
@@ -553,7 +560,7 @@
         
         let there_be_a_good_reason_for_this;
         
-        document.getElementById('google-calendar-iframe').parentNode.parentNode.childNodes[1].childNodes[3].innerHTML = "The Cyber Security Society Calendar available <a href=\"https://calendar.google.com/calendar?cid=a3VjeWJlcnNlY0BnbWFpbC5jb20\">here</a> has all planned events. <a href=\"https://calendar.google.com/calendar?cid=a3VjeWJlcnNlY0BnbWFpbC5jb20\">Subscribe to it</a> and be up to date with all our new events!";
+        document.getElementById('google-calendar-iframe').parentNode.parentNode.childNodes[1].childNodes[3].innerHTML = "The Cyber Security Society Calendar available <a href=\"https://calendar.google.com/calendar/embed?src=kucybersec%40gmail.com&ctz=Europe%2FLondon\">here</a> has all planned events. <a href=\"https://calendar.google.com/calendar/embed?src=kucybersec%40gmail.com&ctz=Europe%2FLondon\">Subscribe to it</a> and be up to date with all our new events!";
         
         elem.parentNode.removeChild(elem);
     } 
